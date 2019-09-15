@@ -2,10 +2,9 @@
 //import { actualizarCacheDinamico } from 'js/sw-utils.js';
 importScripts('js/sw-utils.js');
 
-const VERSION = '-v2';
-const STATIC_CACHE = 'static' + VERSION;
-const DYNAMIC_CACHE = 'dynamic' + VERSION;
-const INMUTABLE_CACHE = 'inmutable' + VERSION;
+const STATIC_CACHE = 'static-v3';
+const DYNAMIC_CACHE = 'dynamic-v3';
+const INMUTABLE_CACHE = 'inmutable-v2';
 
 
 const APP_SHELL = [
